@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Tabs</title>
+  <link rel="stylehsheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs-wrapper">
+      <div class="tabs-header">
+        <button class="tab-btn active" data-tab="first">First Tab</button>
+        <button class="tab-btn" data-tab="second">Second Tab</button>
+        <button class="tab-btn" data-tab="third">Third Tab</button>
+        <button class="tab-btn" data-tab="fourth">Fourth Tab</button>
+      </div>
+
+      <p class="tabs-description">
+        Clicking each tab should hide the content of the other tab and show the content the content of clicked tab. By default, enable the first tab
+      </p>
+
+      <div class="tabs-content-area">
+        
+        <div class="tab-panel active" id="first">
+          <p>First Tab content to be displayed here.</p>
+        </div>
+
+        <div class="tab-panel" id="second">
+          <p>Second Tab content to be displayed here.</p>
+        </div>
+
+        <div class="tab-panel" id="third">
+          <p>Third Tab content to be displayed here.</p>
+        </div>
+
+        <div class="tab-panel" id="fourth">
+          <p>Fourth Tab content to be displayed here.</p>
+        </div>
+
+      </div>
+
+      <p class="tabs-footer-text">
+        Add some dummy text content or just add a simple text showing the tab.
+      </p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
